@@ -63,15 +63,15 @@ Todos os status são exibidos no display LCD.
 ### Temperatura
 O calor excessivo rapidamente termina com a vida do vinho e as flutuações térmicas de mais de 3°C podem causar o aparecimento de aromas indesejados. A situação perfeita seria que ficassem constantemente sob uma temperatura de cerca de 13°C.
 
-A tabela abaixo mostra o esquema de como funciona a exibição dos valores para o usuário. O buzzer não é acinado no caso da temperatura.
+A tabela abaixo mostra o esquema de como funciona a exibição dos valores para o usuário. 
 
 **Observação importante:** A execução do sistema real utiliza um sensor DHT11 para monitorar a temperatura. Por conta do mesmo não existir no tinkercad, a escolha foi de utilizar aquele que está disponível na plataforma.
 
-| Valor | Status exibido | 
-|:----| :-----------------: | 
-|Entre 10°C e 15°C| Temp. OK | 
-|Acima de 15°C|Temp. Alta | 
-|Abaixo de 10°C|Temp. Baixa | 
+| Valor | Status exibido | Buzzer ligado? |
+|:----| :-----------------: | :-----------:|
+|Entre 10°C e 15°C| Temp. OK | Não |
+|Acima de 15°C|Temp. Alta | Sim |
+|Abaixo de 10°C|Temp. Baixa | Sim | 
 
 ### Humidade
 
