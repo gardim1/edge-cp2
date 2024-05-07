@@ -37,9 +37,7 @@ Componentes utilizados no circuito:
 - 5 Resistores de 1000 ohm
 - Jumper Cables
     
-![Logo](https://gcdnb.pbrd.co/images/zIZlq7SC5Rjw.png?o=1)
-
-
+<a href="https://ibb.co/K0hcLjb"><img src="https://i.ibb.co/4mtwYZK/cp2-edge.png" alt="cp2-edge" border="0"></a>
 ## Lógica
 
 
@@ -87,3 +85,4 @@ A tabela abaixo apresenta o esquema de funcionamento do sistema de umidade.
 |Entre 50% e 70%| Umidade OK | Não|
 |Acima de 70%|Umidade Alta | Sim |
 |Abaixo de 50%|Umidade Baixa | Sim |
+
